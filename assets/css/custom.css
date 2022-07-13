@@ -1,0 +1,62 @@
+.painel-container {
+    min-width: 700px;
+    background-color: #cecece;
+    height: 300px;
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.painel-container button {
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    margin: 10px;
+    transition-duration: .5s;
+    border: 1px solid white;
+}
+
+#btn-1, #btn-7 {
+    margin-top: 160px;
+}
+
+#btn-2, #btn-6 {
+    margin-top: 90px;
+}
+
+#btn-3, #btn-5 {
+    margin-top: 45px;
+}
+
+#btn-4 {
+    margin-top: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.bloco-2 .caixa p {
+    color: white;
+}
+
+.tooltip-inner{
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.card {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+}
+
+.ui-droppable {
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin: 5px;
+}
