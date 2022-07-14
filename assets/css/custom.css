@@ -45,18 +45,44 @@ figcaption {
     font-size: 16px;
 }
 
+/* Interativo drag n drop */
+
 .card {
     display: inline-block;
-    height: 75px;
-    width: 75px;
+    height: 125px;
+    width: 125px;
     margin: 5px;
 }
 
+.card p {
+    color: black !important;
+}
+
 .ui-droppable {
-    height: 75px;
-    width: 75px;
-    background-color: white;
-    color: black;
+    height: 125px;
+    width: 125px;
+    background-color: transparent;
+    border: 3px dashed white;
+    color: white;
     display: inline-block;
-    margin: 5px;
+    margin: 15px;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.ui-droppable p {
+    font-size: 18px;
+}
+
+#slots .row, #cardPile {
+    display: flex;
+    justify-content: center;
+}
+
+#slot-3, #slot-6 {
+    border-radius: 100%;
+}
+
+#slot-2, #slot-5 {
+    border-radius: 20%;
 }
