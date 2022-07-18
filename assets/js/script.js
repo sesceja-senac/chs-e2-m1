@@ -37,3 +37,10 @@ $('#btn-7').hover(function (){
 }, function (){
     $('#btn-7').css('transform', 'scale(1)')
 })
+
+$('.card-sesc').click(function(){
+    $('.card-sesc .active').fadeOut()
+    window.setTimeout(function(){
+        $('.card-sesc .hidden').fadeIn()
+    }, 1000)
+})

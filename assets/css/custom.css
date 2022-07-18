@@ -1,37 +1,117 @@
+.bloco.estilo1 {
+    background: unset;
+    background-image: url('../../img/pagina1/estampa.png');
+    background-repeat: no-repeat;
+    background-size: 250px 2000px;
+    background-color: #00838d;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transform: skewY(-3deg);
+    padding-top: 50px;
+}
+.bloco.estilo1 .container {
+    transform: skewY(3deg);
+}
+
+.estilo1 .caixa {
+    border-color: white;
+}
+
+.bloco {
+    background: unset;
+    background-image: url('../../img/pagina1/estampa.png');
+    background-repeat: no-repeat;
+    background-size: 250px 2000px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 5px;
+}
+
+.bloco .container p, .bloco .container h2, .bloco .container h3 {
+    color: #333;
+}
+
+.bloco.estilo1 .container p, .bloco.estilo1 .container h2, .bloco.estilo1 .container h3 {
+    color: white;
+}
+
+.bloco.estilo1::before, .bloco.estilo1::after {
+    display: none;
+    background-image: unset;
+    background-color: #00838d;
+    height: 100px;
+    /* transform: skewY(6deg); */
+}
+
+.bloco-parallax {
+    width: 100%;
+    height: 700px;
+}
+
+#bloco-parallax-1 {
+    background-image: url('../../img/pagina1/pg1-parallax1.png');
+}
+
 .painel-container {
-    min-width: 700px;
-    background-color: #cecece;
-    height: 300px;
+    width: 100%;
+    background-image: url('../../img/pagina1/pg1-painelbg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 500px;
     display: flex;    
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .painel-container button {
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     margin: 10px;
     transition-duration: .5s;
     border: 1px solid white;
 }
 
-#btn-1, #btn-7 {
-    margin-top: 160px;
+#btn-1 {
+    margin-top: 300px;
+    margin-left: 30px;
+    background-image: url('../../img/pagina1/pg1-painel-bt1.png');
+    background-position: center;
 }
-
-#btn-2, #btn-6 {
-    margin-top: 90px;
+#btn-7 {
+    margin-top: 300px;
+    margin-right: 30px;
+    background-image: url('../../img/pagina1/pg1-painel-bt7.png');
+    background-position: center;
 }
-
-#btn-3, #btn-5 {
-    margin-top: 45px;
+#btn-2 {
+    margin-top: 140px;
+    margin-left: -100px;
+    background-image: url('../../img/pagina1/pg1-painel-bt2.png');
+    background-position: center;
 }
-
+#btn-6 {
+    margin-top: 140px;
+    margin-right: -100px;
+    background-image: url('../../img/pagina1/pg1-painel-bt6.png');
+    background-position: center;
+}
+#btn-3 {
+    margin-top: 30px;
+    margin-left: -30px;
+    background-image: url('../../img/pagina1/pg1-painel-bt3.png');
+    background-position: center;
+}
+#btn-5 {
+    margin-top: 30px;
+    margin-right: -30px;
+    background-image: url('../../img/pagina1/pg1-painel-bt5.png');
+    background-position: center;
+}
 #btn-4 {
-    margin-top: 10px;
+    background-image: url('../../img/pagina1/pg1-painel-bt4.png');
+    background-position: center;
 }
-
 figcaption {
     text-align: center;
 }
@@ -89,4 +169,24 @@ figcaption {
 
 table.sesc {
     margin: 1em auto;
+}
+
+.ilustra-1-container {
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+}
+
+.card-sesc {
+    width: 850px;
+    height: 614px;
+    background-image: url('../../img/pagina1/pg1-figura2e3.png');
+    display: block;
+    margin: 15px auto;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.card-sesc .hidden {
+    display: none;
 }
