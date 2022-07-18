@@ -190,3 +190,104 @@ table.sesc {
 .card-sesc .hidden {
     display: none;
 }
+/* Jogo memoria */
+.jogoMemoria{
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid #00838D;
+    padding: 20px 0px 10px;
+
+}
+.cartaMemoria{
+    
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+	border-radius: 6px;
+	-webkit-perspective: 600px;
+	perspective: 600px;
+	/* position: relative;
+	font-size: 1em; */
+	cursor: pointer;
+
+}
+
+.ladoFrente{
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 900;
+	width: 100%;
+	height: inherit;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	-webkit-transform: rotateX(0) rotateY(0);
+	transform: rotateX(0) rotateY(0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	border-radius: 6px;
+}
+.ladoTras{
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	width: 100%;
+	height: inherit;
+	/*text-shadow: 1px 1px 1px rgba(0,0,0,0.1);*/
+	-webkit-transform: rotateY(-179deg);
+	transform: rotateY(-179deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	border-radius: 15px;
+}
+.cartaMemoria.flip .ladoFrente {
+    z-index: 900;
+    background: #333;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    -webkit-transform: rotateY(179deg);
+    transform: rotateY(179deg);
+	/*box-shadow: 0 4px 14px 0 rgba(0,0,0,.17);*/
+}
+.cartaMemoria.flip .ladoTras {
+    z-index: 1000;
+    /*background: #80868d;*/
+    -webkit-transform: rotateX(0) rotateY(0);
+    transform: rotateX(0) rotateY(0);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+}
+.cartaMemoria:not(.flip) > div.ladoFrente:hover{
+	transform: rotate3d(0,45,0,10deg);
+	box-shadow: -8px 10px 27px rgba(0, 0, 0, 0.2);
+}
+.cartaMemoria.flip > div.ladoTras:hover{
+	transform: rotate3d(0,45,0,10deg);
+	box-shadow: -8px 10px 27px rgba(0, 0, 0, 0.2);
+}
+.cartaMemoria.acertou > div.ladoTras{
+	transform: rotate3d(0,45,0,10deg);
+	box-shadow: -8px 2px 5px rgba(23, 226, 0, 0.6);
+}
+.cartaMemoria.acertou > div.ladoTras:hover{
+	transform: rotate3d(0,45,0,15deg);
+	box-shadow: -8px 2px 15px rgba(23, 226, 0, 0.75);
+}
+.cartaMemoria.errou > div.ladoTras{
+	transform: rotate3d(0,45,0,10deg);
+	box-shadow: -8px 2px 5px rgba(226, 0, 0, 0.6);
+}
+.ladoTras > div:first-child{ padding-top:  20px}
+/* fim jogo memoria */
