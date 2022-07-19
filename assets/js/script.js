@@ -1,3 +1,8 @@
+if (window.location.search == '?page=3'){
+    $('.bloco').css('background-position', 'right')
+}
+
+
 $('.painel-container button').hover(function (){
     $(this).css('transform', 'scale(2)')
 }, function (){

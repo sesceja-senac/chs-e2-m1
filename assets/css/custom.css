@@ -61,6 +61,13 @@
 #bloco-parallax-3 {
     background-image: url('../../img/pagina1/pg1-parallax-3.png');    
 }
+#bloco-parallax-6 {
+    background-image: url('../../img/pagina3/pg3-parallax1.png');    
+}
+#bloco-parallax-7 {
+    background-image: url('../../img/pagina3/pg3-parallax2.png');
+    margin-top: -30px;
+}
 
 #bloco-1 {
     margin-bottom: -200px;
@@ -79,6 +86,11 @@
 }
 #bloco-4 {
     padding-bottom: 0;
+}
+
+#bloco-pg3-1 {
+    margin-top: -140px;
+    padding-top: 100px;
 }
 
 .img-rellax-1 {
@@ -134,6 +146,8 @@
     right: 0;
     z-index: 10;
 }
+
+h3 { font-size: 32px; }
 
 .painel-container {
     width: 100%;
@@ -256,6 +270,21 @@ figcaption {
     background-color: transparent;
     margin-top: -50px;
     margin-left: 20px;
+}
+
+#f-9 {
+    
+}
+
+#figura-9 {
+    background: linear-gradient(0deg, #ff9200 50%, #fff 50%);
+    width: 83%; 
+    padding-left: 170px;
+    box-shadow: 0px 9px 6px -6px #333;
+}
+
+#figura-9 img {
+    max-width: 900px;
 }
 
 /* Interativo drag n drop */
