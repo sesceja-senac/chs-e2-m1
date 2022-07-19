@@ -1,4 +1,4 @@
-if (window.location.search == '?page=3'){
+if (window.location.search == '?page=3' || window.location.search == '?page=4'){
     $('.bloco').css('background-position', 'right')
 }
 

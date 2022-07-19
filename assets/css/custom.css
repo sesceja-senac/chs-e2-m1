@@ -18,6 +18,20 @@
     border-color: white;
 }
 
+.bloco.estilo3 {
+    background-color: #004f53;
+    background-image: url('../../img/pagina1/estampa.png');
+    background-repeat: no-repeat;
+    background-size: 15% 2000px;
+}
+
+.bloco.estilo2 {
+    background-color: #ff9200;
+    background-image: url('../../img/pagina1/estampa.png');
+    background-repeat: no-repeat;
+    background-size: 15% 2000px;
+}
+
 .bloco {
     background: unset;
     background-image: url('../../img/pagina1/estampa.png');
@@ -36,7 +50,9 @@
     color: white;
 }
 
-.bloco.estilo1::before, .bloco.estilo1::after {
+.bloco.estilo1::before, .bloco.estilo1::after,
+.bloco.estilo2::before, .bloco.estilo2::after,
+.bloco.estilo3::before, .bloco.estilo3::after {
     display: none;
     background-image: unset;
     background-color: #00838d;
@@ -68,6 +84,14 @@
     background-image: url('../../img/pagina3/pg3-parallax2.png');
     margin-top: -30px;
 }
+#bloco-parallax-8 {
+    background-image: url('../../img/pagina4/pg4-Parallax1.png');
+    margin-top: -30px;
+}
+#bloco-parallax-9 {
+    background-image: url('../../img/pagina4/pg4-Parallax2.png');
+    margin-top: -30px;
+}
 
 #bloco-1 {
     margin-bottom: -200px;
@@ -91,6 +115,18 @@
 #bloco-pg3-1 {
     margin-top: -140px;
     padding-top: 100px;
+}
+
+#bloco-pg4-1 {
+    margin-bottom: -150px;
+}
+
+#bloco-pg4-2 {
+    margin-top: -150px;
+}
+#bloco-pg4-3 {
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 .img-rellax-1 {
@@ -135,7 +171,7 @@
 }
 .img-rellax-7 {
     position: absolute;
-    width: 20%;
+    width: 18%;
     bottom: 0;
     z-index: 10;
 }
@@ -233,6 +269,10 @@ figcaption {
     color: #333;
 }
 
+.bloco.estilo3 p, .bloco.estilo3 h4, .bloco.estilo3 figcaption{
+    color: white;
+}
+
 .container .caixa {
     background-color: #00838D;
     color: white;
@@ -242,6 +282,7 @@ figcaption {
     border-bottom-left-radius: 180px;
     border: none;
     padding: 30px;
+    box-shadow: 3px 3px 6px #333;
 }
 
 .bloco .container .caixa p {
@@ -272,6 +313,16 @@ figcaption {
     margin-left: 20px;
 }
 
+.icone.pesquisa::before {
+    background-image: url('../../img/pagina4/pg4-pesquisar-ico.png');
+    height: 182px;
+    width: 239px;
+    background-size: contain;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
 #f-9 {
     
 }
@@ -285,6 +336,32 @@ figcaption {
 
 #figura-9 img {
     max-width: 900px;
+}
+
+.letra-cv {
+    background-color: #008086;
+    display: block;
+    width: 420px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 4px 4px 9px #333 inset;
+}
+
+.bloco .container .letra-cv p {
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.letra-cv p b {
+    font-size: 26px;
+    line-height: 1em;
 }
 
 /* Interativo drag n drop */
@@ -370,12 +447,13 @@ figcaption.active, figcaption.hidden {
     color: #cecece;
 }
 
-.bloco.estilo1 .bg-card-f6 {
+.bloco.estilo1 .bg-card, .bloco.estilo2 .bg-card {
     background-color: white;
     color: #333;
     padding: 20px 40px;
     border-radius: 25px;
     box-shadow: 5px 10px 10px #333;
+    margin: 30px auto;
 }
 
 .bloco.estilo1 .bg-card-f6 p, .bloco.estilo1 .bg-card-f6 h3 {
