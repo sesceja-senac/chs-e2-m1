@@ -32,7 +32,7 @@
     color: #333;
 }
 
-.bloco.estilo1 .container p, .bloco.estilo1 .container h2, .bloco.estilo1 .container h3 {
+.bloco.estilo1 .container p, .bloco.estilo1 .container h2, .bloco.estilo1 .container h3, .bloco.estilo1 .container figcaption {
     color: white;
 }
 
@@ -84,24 +84,24 @@
 .img-rellax-1 {
     position: absolute;
     width: 20%;
-    top: 450px;
+    top: 50px;
 }
 .img-rellax-2 {
     position: absolute;
     width: 20%;
-    top: 510px;
+    top: 350px;
     right: 0;
 }
 .img-rellax-3 {
     position: absolute;
     width: 20%;
-    top: 1810px;
+    top: 600px;
     z-index: 10;
 }
 .img-rellax-4 {
     position: absolute;
     width: 20%;
-    top: 2110px;
+    top: 800px;
     right: 0;
     z-index: 10;
 }
@@ -211,6 +211,53 @@ figcaption {
     font-size: 16px;
 }
 
+.estilo1 .container .caixa {
+    background-color: white;
+}
+
+.bloco.estilo1 .container .caixa p {
+    color: #333;
+}
+
+.container .caixa {
+    background-color: #00838D;
+    color: white;
+    border-top-right-radius: 190px;
+    border-bottom-right-radius: 250px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 180px;
+    border: none;
+    padding: 30px;
+}
+
+.bloco .container .caixa p {
+    color: white;
+}
+
+.caixa.icone {
+    padding-left: 140px;
+}
+
+.icone.dica::before {
+    background-image: url('../../img/pagina1/pg1-dica-ico.png');
+    height: 192px;
+    width: 249px;
+    background-size: contain;
+    background-color: transparent;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.icone.saiba-mais::before {
+    background-image: url('../../img/pagina1/pg1-saiba-ico.png');
+    height: 192px;
+    width: 249px;
+    background-size: contain;
+    background-color: transparent;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
 /* Interativo drag n drop */
 
 .card {
@@ -273,9 +320,50 @@ table.sesc {
     padding-left: 50px;
 }
 
-.card-sesc .hidden {
+.card-sesc:hover {
+    cursor: pointer;
+}
+
+.card-sesc .hidden, figcaption.hidden {
     display: none;
 }
+
+figcaption.active, figcaption.hidden {
+    margin-top: -48px;
+}
+
+.tooltip-link {
+    color: #333;
+    text-decoration-style: dashed;
+}
+
+.estilo1 .tooltip-link {
+    color: #cecece;
+}
+
+.bloco.estilo1 .bg-card-f6 {
+    background-color: white;
+    color: #333;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px #333;
+}
+
+.bloco.estilo1 .bg-card-f6 p, .bloco.estilo1 .bg-card-f6 h3 {
+    color: #333;
+}
+
+.bloco.estilo1 .bg-card-f6 p {
+    text-align: justify;
+}
+.bloco.estilo1 .bg-card-f6 h3 {
+    font-size: 28px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
 /* Jogo memoria */
 .jogoMemoria{
     display: flex;    
