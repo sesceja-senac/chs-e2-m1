@@ -85,44 +85,38 @@ var cards = [
         'conteudo':'lorem'
     },
 ];
-$(".cartaMemoria").click(function(){
+$(".cartaMemoria").click(cliqueCarta);
+
+function cliqueCarta(){
     var cartaAtual = $(this);
 
     if(cartaAtual.hasClass("acertou") || cartaAtual.hasClass("errou")){
 
     }else{
-        $(this).toggleClass("flip");
-        if($(".flip").length > 1)
+        $(this).addClass("flip");
+        if($(".flip:not(.acertou):not(.errou)").length > 1){
+            $(".cartaMemoria").unbind()
             validaMemoria();
+        }
     }
-    // window.setTimeout(function(){
-    //     $('.card-sesc .hidden').fadeIn()
-    // }, 1000)
-})
+}
 function validaMemoria(){
-    var flip = $(".flip");
+    var flip = $(".flip:not(.acertou):not(.errou)");
     var carta0 = flip[0];
     var carta1 = flip[1];
+
     
     if($(carta0).data( "par" ) == $(carta1).data( "par" )){
         console.log($(carta0).data( "par" ) +"__"+ $(carta1).data( "par" ));
-        $(".flip").addClass("acertou");
-        $(flip).removeClass("flip");
+        $(".flip:not(.acertou):not(.errou)").addClass("acertou");
+        $(".cartaMemoria:not(.acertou):not(.errou)").click(cliqueCarta);               
 
     }else{
-        $(".flip").addClass("errou");
+        $(".flip:not(.acertou):not(.errou)").addClass("errou");
             window.setTimeout(function(){
                 $(flip).removeClass("flip");
                 $(flip).removeClass("errou");
-            }, 1500)
+                $(".cartaMemoria:not(.acertou):not(.errou)").click(cliqueCarta);
+            }, 1000)
     }
-
-
-
-    // console.log(cards);
-    // console.log(Object.values(Object.values(cards)[0])[0]);
-    // console.log(Object.values(Object.values(cards)[0])[1]);
-    // console.log(Object.values(Object.values(cards)[1])[0]);
-    // console.log(Object.values(Object.values(cards)[0])[1]);
-
 }
