@@ -146,26 +146,26 @@
     padding-top: 100px;
 }
 
+.rellax {
+    width: 20%;
+}
+
 .img-rellax-1 {
     position: absolute;
-    width: 20%;
     top: 50px;
 }
 .img-rellax-2 {
     position: absolute;
-    width: 20%;
     top: 350px;
     right: 0;
 }
 .img-rellax-3 {
     position: absolute;
-    width: 20%;
     top: 600px;
     z-index: 10;
 }
 .img-rellax-4 {
     position: absolute;
-    width: 20%;
     top: 800px;
     right: 0;
     z-index: 10;
@@ -175,13 +175,11 @@
 }
 .img-rellax-5 {
     position: absolute;
-    width: 20%;
     top: 800px;
     z-index: 10;
 }
 .img-rellax-6 {
     position: absolute;
-    width: 20%;
     top: 800px;
     right: 0;
     z-index: 10;
@@ -194,7 +192,6 @@
 }
 .img-rellax-8 {
     position: absolute;
-    width: 20%;
     bottom: -400px;
     right: 0;
     z-index: 10;
@@ -589,3 +586,91 @@ figcaption.active, figcaption.hidden {
 }
 .ladoTras > div:first-child{ padding-top:  20px}
 /* fim jogo memoria */
+
+@media (max-width: 1280px) {
+    .bloco,
+    .bloco.estilo1,
+    .bloco.estilo2,
+    .bloco.estilo3 {
+        background-size: 10% 2000px;
+    }
+    .rellax {
+        width: 16%;
+    }
+}
+
+@media (max-width: 1090px) {
+    .bloco,
+    .bloco.estilo1,
+    .bloco.estilo2,
+    .bloco.estilo3 {
+        background-size: 6% 2000px;
+    }
+}
+
+@media (max-width: 870px) {
+    .card-sesc {
+        background-image: unset;
+        background-color: white;
+        padding: 15px 20px;
+        height: auto;
+        min-height: 340px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        border-radius: 30px;
+    }
+
+    figcaption.hidden, figcaption.active {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 760px) {
+    .ilustra-1-container {
+        float: unset;
+    }
+    .painel-container {
+        height: 700px;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 400px;
+    }
+    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5, #btn-6, #btn-7 {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bloco,
+    .bloco.estilo1,
+    .bloco.estilo2,
+    .bloco.estilo3 {
+        background-image: unset;
+    }
+}
+
+@media (max-width:500px) {
+    .bloco,
+    .bloco.estilo1,
+    .bloco.estilo2,
+    .bloco.estilo3 {
+        background-image: unset;
+    }
+    .card-sesc {
+        width: 300px;
+        height: 214px;
+        background-image: unset;
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    figcaption.active, figcaption.hidden {
+        margin-top: unset;
+    }
+
+    
+}
