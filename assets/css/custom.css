@@ -382,9 +382,15 @@ figcaption {
 
 /* Interativo drag n drop */
 
+.game-body{
+    background-color: #ff9200;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin: 100px 0px 30px;
+}
 .card {
     display: inline-block;
-    height: 125px;
+    height: 102px;
     width: 125px;
     margin: 5px;
 }
@@ -392,7 +398,33 @@ figcaption {
 .card p {
     color: black !important;
 }
+#cardPile img{
+    width: 125px;
+}
+.game-descricao{
+    background-color: #fff;
+    padding: 90px 0 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.game-descricao-img{
+    position: relative;
+}
+.game-descricao-img img{
+    width: 150px;
+    position: absolute;
+    top: -55px;
+}
+.game-descricao p{
+    color: #333 !important;
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: initial;
+    text-align: center;
+}
+/* #content > div.container-fluid.game-body > div > div.col-2.align-self-start > div:nth-child(2){
 
+} */
 .ui-droppable {
     height: 125px;
     width: 125px;
@@ -412,6 +444,7 @@ figcaption {
 #slots .row, #cardPile {
     display: flex;
     justify-content: center;
+    margin: 25px 0;
 }
 
 #slot-3, #slot-6 {
@@ -596,6 +629,10 @@ figcaption.active, figcaption.hidden {
     margin-left: 30px;
     border-radius: 20px;
 }
+.caixa.icone.destaqueJogoMemoria::before{
+    background-color: transparent;
+}
+
 .destaqueJogoMemoria h5{
     font-size: 1.15rem;
 
@@ -610,17 +647,123 @@ figcaption.active, figcaption.hidden {
     background-color: #fff;
     border-radius: 30px;
     padding: 20px 90px;
+    box-shadow: 3px 3px 6px #333;
 }
 .bloco.estilo1, .bloco.estilo2, .bloco.estilo3 {
     margin-bottom: 0px;
 }
-/* .bloco.estilo1 .container .bg-fontehistorica p, .bloco.estilo1 .container .bg-fontehistorica h2, .bloco.estilo1 .container .bg-fontehistorica h3{
-    color: black;
-} */
+.bloco.estilo1 .container .bg-card-f6 figcaption {
+    color:#333;
+}
+.fontes-historicas{
+    /* background-color: #ff9200; */
+    position: relative;
+}
+
+.img-painel1, .img-painel2, .img-painel3, .img-painel4, .img-painel5{
+    position: absolute;
+    cursor: pointer;
+}
+.img-painel1{
+    left: 18%;
+    top: 13%;
+    width: 22%;
+    height: 30%;
+    background: url(../../img/pagina2/pg2-painel-bt1.png) no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.img-painel2{
+    left: 16%;
+    bottom: 15%;
+    width: 28%;
+    height: 24%;
+    background: url('../../img/pagina2/pg2-painel-bt2.png') no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.img-painel3{
+    right: 21%;
+    bottom: 15%;
+    width: 18%;
+    height: 31%;
+    background: url('../../img/pagina2/pg2-painel-bt3.png') no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.img-painel4{
+    right: 18%;
+    top: 11%;
+    width: 26%;
+    height: 36%;
+    background: url('../../img/pagina2/pg2-painel-bt4.png') no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.img-painel5{
+    left: 35%;
+    bottom: 37%;
+    width: 22%;
+    height: 24%;
+    background: url('../../img/pagina2/pg2-painel-bt5.png') no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.img-painel1:hover{
+    width: 44%;
+    height: 49%;
+    left: 0%;
+    top: 8%;
+    background: url(../../img/pagina2/pg2-painel-bt1-hover.png) no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.img-painel2:hover{
+    width: 46%;
+    height: 49%;
+    left: 0%;
+    bottom: -4%;
+    background: url(../../img/pagina2/pg2-painel-bt2-hover.png) no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.img-painel3:hover{
+    width: 43%;
+    height: 49%;
+    right: 13%;
+    bottom: 5%;
+    background: url(../../img/pagina2/pg2-painel-bt3-hover.png) no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.img-painel4:hover{
+    width: 43%;
+    height: 49%;
+    right: 15%;
+    bottom: 5%;
+    background: url(../../img/pagina2/pg2-painel-bt4-hover.png) no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.img-painel5:hover{
+    left: 16%;
+    bottom: 22%;
+    width: 49%;
+    height: 49%;
+    background: url(../../img/pagina2/pg2-painel-bt5-hover.png) no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
 
 /* fim jogo memoria */
-/* fim jogo memoria */
-
+.moldura1{
+    border: 25px solid #fff;
+    border-radius: 30px;
+}
+/*  */
 @media (max-width: 1280px) {
     .bloco,
     .bloco.estilo1,

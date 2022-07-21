@@ -254,14 +254,18 @@
                         <p>Compreenda o que é patrimônio histórico e qual sua importância para a construção e a
                             valorização da identidade de um povo.</p>
                         <p>Assista ao vídeo a seguir. </p>
-                        <p>Com base no vídeo sobre patrimônio, relacione os patrimônios às imagens corretas as quais
-                            pertencem.</p>
-
+                        
+                         <div class="moldura1">
+                          <iframe  width="100%" height="515"
+                          src="https://www.youtube.com/embed/h7MYJghRWt0?modestbranding=1" title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                        </div>
 
                         <div id="content">
-                            <div class="container-fluid game-header" style="height: 193px;padding:0;">
+                            <!-- <div class="container-fluid game-header" style="height: 193px;padding:0;">
                                 <div class="col-md-6 col-sm-6">
-                                    <!-- <img src="#om.png" id="objeto-audio"> -->
                                     <p class="app-title">
                                         Exercício
                                     </p>
@@ -272,12 +276,16 @@
 
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
 
 
                             <div class="container-fluid game-body" style="padding:0;">
-
-                                <div id="slots">
+                                <div class="row">
+                                <div class="col-2 align-self-start" style="margin-left: 50px;">
+                                    <div class="row game-descricao-img"><img src="img/pagina2/pg2-praticar2-ico.png" style="width: 150px;" alt=""></div>
+                                    <div class="row game-descricao"><p>Com base no vídeo sobre patrimônio, relacione os patrimônios às imagens corretas as quais pertencem. </p></div>
+                                </div>
+                                <div id="slots" class="col-9">
                                     <div class="row">
                                         <div id="slot-1" class="ui-droppable">
                                             <p>Patrimônio imaterial</p>
@@ -303,25 +311,26 @@
                                 </div>
 
                                 <div id="cardPile">
-                                    <div id="card-1" class="card slot-1 slot-4 ui-draggable ">
-                                        <p>imaterial</p>
+                                    <div id="card-1" class="card slot-2 slot-5 ui-draggable ">
+                                        <img src="img/pagina2/pg2-praticar-1.png" alt="">
                                     </div>
                                     <div id="card-2" class="card slot-3 slot-6 ui-draggable ui-draggable-handle">
-                                        <p>natural</p>
+                                        <img src="img/pagina2/pg2-praticar-2.png" alt="">
                                     </div>
-                                    <div id="card-3" class="card slot-2 slot-5 ui-draggable ui-draggable-handle">
-                                        <p>material</p>
+                                    <div id="card-3" class="card slot-1 slot-4 ui-draggable ui-draggable-handle">
+                                        <img src="img/pagina2/pg2-praticar-3.png" alt="">
                                     </div>
                                     <div id="card-4" class="card slot-1 slot-4 ui-draggable ui-draggable-handle">
-                                        <p>imaterial</p>
+                                        <img src="img/pagina2/pg2-praticar-4.png" alt="">
                                     </div>
-                                    <div id="card-5" class="card slot-2 slot-5 ui-draggable ui-draggable-handle">
-                                        <p>material</p>
+                                    <div id="card-5" class="card slot-3 slot-6 ui-draggable ui-draggable-handle">
+                                        <img src="img/pagina2/pg2-praticar-5.png" alt="">
                                     </div>
-                                    <div id="card-6" class="card slot-3 slot-6 ui-draggable ui-draggable-handle">
-                                        <p>natural</p>
+                                    <div id="card-6" class="card slot-2 slot-5 ui-draggable ui-draggable-handle">
+                                        <img src="img/pagina2/pg2-praticar-6.png" alt="">
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
 
@@ -364,7 +373,7 @@
                                 onde hoje
                                 fica a Etiópia, na África, há 3,18 milhões de anos.</p>
                             <figure>
-                                <img class="img-fluid d-block m-auto" src="img/pagina2/pg2-figura6.png" alt="">
+                                <img class="img-fluid d-block m-auto" src="img/pagina2/Pg2-figura6-all.png" alt="">
                                 <figcaption>Figura 6 – Esqueleto de Lucy e modelo tridimensional do Australopithecus
                                     afarensis
                                     <br>
@@ -378,15 +387,101 @@
                 
                 <!-- Bloco 11 -->
                 <div class="bloco estilo1">
-
-                    <div class="container">
-                        <p>
-                            As fontes históricas, porém, vão muito além dos sítios arqueológicos. Clique no botão e
-                            observe.
-                        </p> 
-
-                       
-
+                    <div class="container  text-center" >
+                        <div class="row justify-content-center">
+                          <div class="col-9 bg-card-f6">
+                            <p>
+                                As fontes históricas, porém, vão muito além dos sítios arqueológicos. Clique no botão e
+                                observe.
+                            </p> 
+                          </div>
+                        </div>
+                        <div class="fontes-historicas">
+                            <!-- Button trigger modal -->
+                            <img src="img/pagina2/pg2-painelbg.png" class="img-fluid d-block m-auto" alt="">
+                            <div data-bs-toggle="modal" data-bs-target="#bgPainelModal1" class="img-painel1"></div>
+                            <div data-bs-toggle="modal" data-bs-target="#bgPainelModal2" class="img-painel2"></div>
+                            <div data-bs-toggle="modal" data-bs-target="#bgPainelModal3" class="img-painel3"></div>
+                            <div data-bs-toggle="modal" data-bs-target="#bgPainelModal4" class="img-painel4"></div>
+                            <div data-bs-toggle="modal" data-bs-target="#bgPainelModal5" class="img-painel5"></div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="bgPainelModal1" tabindex="-1" aria-labelledby="bgPainelModal1Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="bgPainelModal1Label">Documentos escritos</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">certidões, cartas, testamentos, livros, jornais, revistas, entre outros. 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="bgPainelModal2" tabindex="-1" aria-labelledby="bgPainelModal2Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="bgPainelModal2Label">Relatos orais</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">entrevistas, lendas etc. 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="bgPainelModal3" tabindex="-1" aria-labelledby="bgPainelModal3Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="bgPainelModal3Label">Fontes materiais</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">pedras, cerâmicas, objetos, entre outros. 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="bgPainelModal4" tabindex="-1" aria-labelledby="bgPainelModal4Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="bgPainelModal4Label">Fontes audiovisuais e sonoras</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">cinema, televisão, DVDs, CDs etc. 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="bgPainelModal5" tabindex="-1" aria-labelledby="bgPainelModal5Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="bgPainelModal5Label">Fontes visuais</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">imagens, pinturas, fotografias, anúncios de publicidade, entre outros.  
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
                 
@@ -397,8 +492,8 @@
                 <div class="bloco estilo1">
                     
                         
-                    <img src="img/pagina2/pg2-laterais4.png" class="rellax img-rellax-7" data-rellax-speed="3">
-                    <img src="img/pagina2/pg2-laterais5.png" class="rellax img-rellax-8" data-rellax-speed="4">
+                    <img src="img/pagina2/pg2-laterais6.png" class="rellax img-rellax-7" data-rellax-speed="3">
+                    <img src="img/pagina2/pg2-laterais7.png" class="rellax img-rellax-8" data-rellax-speed="4">
                     <div class="container"><p>Então é possível deduzir que aquele álbum de fotos antigo é uma fonte histórica? Claro, por
                             meio de uma fotografia é possível identificar formas de vestuário de determinada época,
                             observar comportamentos e tradições, investigar as tecnologias do período, além de
@@ -439,7 +534,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards1.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="1">
+                            <div class="cartaMemoria" data-par="2">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -447,7 +542,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards2.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="2">
+                            <div class="cartaMemoria" data-par="3">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -455,7 +550,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards3.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="2">
+                            <div class="cartaMemoria" data-par="4">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -463,7 +558,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards4.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="3">
+                            <div class="cartaMemoria" data-par="5">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -471,7 +566,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards5.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="3">
+                            <div class="cartaMemoria" data-par="1">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -479,7 +574,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards6.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="4">
+                            <div class="cartaMemoria" data-par="1">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -487,7 +582,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards7.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="4">
+                            <div class="cartaMemoria" data-par="2">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -495,7 +590,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards8.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="5">
+                            <div class="cartaMemoria" data-par="2">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -503,7 +598,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards9.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="5">
+                            <div class="cartaMemoria" data-par="3">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -511,7 +606,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards10.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="6">
+                            <div class="cartaMemoria" data-par="3">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -519,7 +614,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards11.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="6">
+                            <div class="cartaMemoria" data-par="4">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -527,7 +622,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards12.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="6">
+                            <div class="cartaMemoria" data-par="4">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -535,7 +630,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards13.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="6">
+                            <div class="cartaMemoria" data-par="5">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -567,7 +662,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards1.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="1">
+                            <div class="cartaMemoria" data-par="2">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -575,7 +670,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards2.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="2">
+                            <div class="cartaMemoria" data-par="3">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
@@ -583,7 +678,7 @@
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards3.png" alt="">
                                 </div>
                             </div>
-                            <div class="cartaMemoria" data-par="2">
+                            <div class="cartaMemoria" data-par="4">
                                 <div class="ladoFrente">
                                     <img src="img/pagina2/jogodaMemoria/pg2-cards-virado.png" alt="">
                                 </div>
