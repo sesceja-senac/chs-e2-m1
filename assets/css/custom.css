@@ -62,7 +62,7 @@
 
 .bloco-parallax {
     width: 100%;
-    height: 500px;
+    height: 700px;
     position: relative;
     z-index: 10;
     background-size: cover;
@@ -114,10 +114,10 @@
 }
 
 #bloco-2 {
-    padding-top: 100px;
-    margin-top: -140px;
-    padding-bottom: 140px;
-    margin-bottom: -140px;
+    padding-top: 150px;
+    margin-top: -200px;
+    padding-bottom: 150px;
+    margin-bottom: -200px;
 }
 #bloco-3 {
     margin-top: -140px;
@@ -128,28 +128,30 @@
 }
 
 #bloco-pg3-1 {
-    margin-top: -140px;
-    padding-top: 100px;
+    margin-top: -200px;
+    padding-top: 150px;
 }
 
 #bloco-pg4-1 {
-    margin-bottom: -150px;
+    margin-bottom: -200px;
 }
 
 #bloco-pg4-2 {
-    margin-top: -150px;
+    margin-top: -200px;
+    padding-top: 150px;
 }
 #bloco-pg4-3 {
     padding-top: 100px;
     margin-top: -100px;
 }
 #bloco-pg5-2 {
-    margin-top: -150px;
-    padding-top: 150px;
+    margin-top: -250px;
+    padding-top: 250px;
+    margin-bottom: -200px;
 }
 #bloco-pg5-3 {
-    margin-top: -140px;
-    padding-top: 100px;
+    margin-top: -200px;
+    padding-top: 130px;
 }
 
 .rellax {
@@ -492,7 +494,7 @@ figcaption.active, figcaption.hidden {
     text-decoration-style: dashed;
 }
 
-.estilo1 .tooltip-link {
+.estilo1 .tooltip-link, .estilo3 .tooltip-link {
     color: #cecece;
 }
 
