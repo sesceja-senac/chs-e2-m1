@@ -7,7 +7,6 @@
     padding-bottom: 20px;
     padding-top: 100px;
     padding-top: 50px;
-    box-shadow: 3px 3px 10px #333;
 }
 .bloco.estilo1 .container {
     padding-top: 50px;
@@ -22,7 +21,6 @@
     background-image: url('../../img/pagina1/estampa.png');
     background-repeat: no-repeat;
     background-size: 15% 2000px;
-    box-shadow: 3px 3px 10px #333;
 }
 
 .bloco.estilo2 {
