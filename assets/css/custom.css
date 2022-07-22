@@ -1,3 +1,8 @@
+#preload-01 { background: url('../../img/pagina5/pg5-mapa-bt-1.png') no-repeat -9999px -9999px; }
+#preload-02 { background: url('../../img/pagina5/pg5-mapa-bt-2.png') no-repeat -9999px -9999px; }
+#preload-03 { background: url('../../img/pagina5/pg5-mapa-bt-3.png') no-repeat -9999px -9999px; }
+#preload-04 { background: url('../../img/pagina5/pg5-mapa-bt-4.png') no-repeat -9999px -9999px; }
+
 .bloco.estilo1 {
     background: unset;
     background-image: url('../../img/pagina1/estampa.png');
@@ -853,7 +858,153 @@ figcaption.active, figcaption.hidden {
     margin: auto;
 }
 
-
+.gifs-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gifs-container figure {
+    margin: 10px;
+    color: white;
+    box-shadow: 3px 3px 5px #333;
+}
+.gifs-container figcaption {
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+.gif-1 {
+    background-color: #004f53;
+    padding: 20px;
+    border-radius: 15px;
+}
+.gif-2 {
+    background-color: #ff9200;
+    padding: 20px;
+    border-radius: 15px;
+}
+.objeto-mapa-pg5 {
+    background-image: url('../../img/pagina5/pg5-mapa.png');
+    height: 620px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.mapa-bt {
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    z-index: 3;
+    transition-duration: .2s;
+}
+.mapa-bt:hover {
+    box-shadow: 2px 2px 3px #333;
+    transition-duration: .2s;
+}
+.mapa-bt-1 {
+    left: 23.7%;
+    top: 18.5%;
+    background-color: #d188c0;
+}
+.mapa-bt-2 {
+    left: 34.8%;
+    top: 36%;
+    background-color: #598959;
+}
+.mapa-bt-3 {
+    left: 42.7%;
+    top: 57.7%;
+    background-color: #783aa0;
+}
+.mapa-bt-4 {
+    bottom: 23%;
+    left: 26%;
+    background-color: #51c2ce;
+}
+.mapa-bt p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
+.mapa-modal {
+    box-shadow: 3px 3px 5px #333;
+    width: fit-content;
+    position: absolute;
+    
+}
+.mapa-modal-1 {
+    left: 26.5%;
+    top: 23%;
+}
+.mapa-modal-1 .tabela-mapa th {
+    background-color: #d188c0;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    line-height: 1.2em;
+    padding: 6px;
+}
+.mapa-modal-1 .tabela-mapa td {
+    background-color: #ffb8eb;
+    text-align: center;
+    color: black;
+}
+.mapa-modal-2 {
+    left: 38%;
+    top: 40.5%;
+}
+.mapa-modal-2 .tabela-mapa th {
+    background-color: #598959;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    line-height: 1.2em;
+    padding: 6px;
+}
+.mapa-modal-2 .tabela-mapa td {
+    background-color: #7ec47e;
+    text-align: center;
+    color: white;
+}
+.mapa-modal-3 {
+    left: 45.5%;
+    top: 62.5%;
+}
+.mapa-modal-3 .tabela-mapa th {
+    background-color: #783aa0;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    line-height: 1.2em;
+    padding: 6px;
+}
+.mapa-modal-3 .tabela-mapa td {
+    background-color: #b47fd6;
+    text-align: center;
+    color: white;
+}
+.mapa-modal-4 {
+    left: 29%;
+    bottom: 12%;
+}
+.mapa-modal-4 .tabela-mapa th {
+    background-color: #51c2ce;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    line-height: 1.2em;
+    padding: 6px;
+}
+.mapa-modal-4 .tabela-mapa td {
+    background-color: #9ed4dd;
+    text-align: center;
+    color: black;
+}
 @media (max-width: 1280px) {
     .bloco,
     .bloco.estilo1,

@@ -27,3 +27,69 @@ $('.card-sesc').click(function(){
     }
     
 })
+
+$('.mapa-bt-1').hover(function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa-bt-1.png")')
+}, function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa.png")')
+})
+$('.mapa-bt-2').hover(function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa-bt-2.png")')
+}, function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa.png")')
+})
+$('.mapa-bt-3').hover(function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa-bt-3.png")')
+}, function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa.png")')
+})
+$('.mapa-bt-4').hover(function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa-bt-4.png")')
+}, function(){
+    $('.objeto-mapa-pg5').css('background-image', 'url("img/pagina5/pg5-mapa.png")')
+})
+$('.mapa-modal').hide()
+$('.mapa-bt-1').click(function(){
+    if($('.mapa-modal-1').css('display') !== 'block'){
+        $('.mapa-modal').fadeOut()
+        $('.mapa-bt p').fadeOut()
+        $('.mapa-modal-1').fadeIn()
+        $('.mapa-bt-1 p').fadeIn()
+    } else {
+        $('.mapa-modal-1').fadeOut()
+        $('.mapa-bt-1 p').fadeOut()
+    }
+})
+$('.mapa-bt-2').click(function(){
+    if($('.mapa-modal-2').css('display') !== 'block'){
+        $('.mapa-modal').fadeOut()
+        $('.mapa-bt p').fadeOut()
+        $('.mapa-modal-2').fadeIn()
+        $('.mapa-bt-2 p').fadeIn()
+    } else {
+        $('.mapa-modal-2').fadeOut()
+        $('.mapa-bt-2 p').fadeOut()
+    }
+})
+$('.mapa-bt-3').click(function(){
+    if($('.mapa-modal-3').css('display') !== 'block'){
+        $('.mapa-modal').fadeOut()
+        $('.mapa-bt p').fadeOut()
+        $('.mapa-modal-3').fadeIn()
+        $('.mapa-bt-3 p').fadeIn()
+    } else {
+        $('.mapa-modal-3').fadeOut()
+        $('.mapa-bt-3 p').fadeOut()
+    }
+})
+$('.mapa-bt-4').click(function(){
+    if($('.mapa-modal-4').css('display') !== 'block'){
+        $('.mapa-modal').fadeOut()
+        $('.mapa-bt p').fadeOut()
+        $('.mapa-modal-4').fadeIn()
+        $('.mapa-bt-4 p').fadeIn()
+    } else {
+        $('.mapa-modal-4').fadeOut()
+        $('.mapa-bt-4 p').fadeOut()
+    }
+})
