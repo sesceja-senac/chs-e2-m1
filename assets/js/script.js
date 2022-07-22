@@ -16,14 +16,14 @@ $('.card-sesc').click(function(){
         window.setTimeout(function(){
         $('.card-sesc .hidden').fadeIn()
         $('figcaption.hidden').fadeIn()
-    }, 1000)
+    }, 500)
     } else if($('.card-sesc .hidden').css('display')!=='none'){
         $('.card-sesc .hidden').fadeOut()
         $('figcaption.hidden').fadeOut()
     window.setTimeout(function(){
         $('.card-sesc .active').fadeIn()
         $('figcaption.active').fadeIn()
-    }, 1000)
+    }, 500)
     }
     
 })
