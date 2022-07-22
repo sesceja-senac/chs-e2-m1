@@ -79,10 +79,10 @@
     background-image: url('../../img/pagina1/pg1-parallax-3.png');    
 }
 #bloco-parallax-4 {
-    background-image: url('../../img/pagina2/pg2-parallax1.png');    
+    background-image: url('../../img/pagina2/pg2-parallax-1.png');    
 }
 #bloco-parallax-5 {
-    background-image: url('../../img/pagina2/pg2-Parallax2.png');    
+    background-image: url('../../img/pagina2/pg2-parallax-2.png');    
 }
 #bloco-parallax-6 {
     background-image: url('../../img/pagina3/pg3-parallax1.png');    
@@ -756,13 +756,24 @@ figcaption.active, figcaption.hidden {
     background-size: cover;
     transition: all 0.3s;
 }
-
-
 /* fim jogo memoria */
+
 .moldura1{
     border: 25px solid #fff;
     border-radius: 30px;
 }
+
+.box-round{
+    padding: 20px 90px;
+    background-color: #fff;
+    border-radius:0px 0px 30px 30px;
+    box-shadow: 3px 3px 6px #333;
+}
+.bloco.estilo2.pg6-bloco1{
+    padding-top: 0px;
+}
+
+
 /*  */
 @media (max-width: 1280px) {
     .bloco,
