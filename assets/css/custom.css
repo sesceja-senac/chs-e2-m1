@@ -1060,6 +1060,13 @@ figcaption.active, figcaption.hidden {
     background-color: transparent;
 }
 
+footer.container-fluid {
+    background-color: #00838d;
+    background-image: url('../../img/pagina1/estampa.png');
+    background-repeat: repeat-y;
+    background-size: 15% auto;
+}
+
 @media (max-width: 1280px) {
     .bloco,
     .bloco.estilo1,
