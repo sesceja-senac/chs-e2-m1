@@ -1021,30 +1021,11 @@ figcaption.hidden {
     transition: all 0.3s;
 }
 /* fim jogo memoria */
-<<<<<<< HEAD
 .moldura1 {
-=======
-
-.moldura1{
->>>>>>> 0cc95cf88c6338a6414f1a2480f1c6c06de32f46
     border: 25px solid #fff;
     border-radius: 30px;
 }
 
-<<<<<<< HEAD
-=======
-.box-round{
-    padding: 20px 90px;
-    background-color: #fff;
-    border-radius:0px 0px 30px 30px;
-    box-shadow: 3px 3px 6px #333;
-}
-.bloco.estilo2.pg6-bloco1{
-    padding-top: 0px;
-}
-
-
->>>>>>> 0cc95cf88c6338a6414f1a2480f1c6c06de32f46
 /*  */
 
 .linha-do-tempo {
