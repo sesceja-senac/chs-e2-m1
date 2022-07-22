@@ -1,7 +1,7 @@
 .bloco.estilo1 {
     background: unset;
     background-image: url('../../img/pagina1/estampa.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 15% 2000px;
     background-color: #00838d;
     padding-bottom: 20px;
@@ -19,21 +19,21 @@
 .bloco.estilo3 {
     background-color: #004f53;
     background-image: url('../../img/pagina1/estampa.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 15% 2000px;
 }
 
 .bloco.estilo2 {
     background-color: #ff9200;
     background-image: url('../../img/pagina1/estampa.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 15% 2000px;
 }
 
 .bloco {
     background: unset;
     background-image: url('../../img/pagina1/estampa.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 15% 2000px;
     padding-bottom: 40px;
     padding-top: 40px;

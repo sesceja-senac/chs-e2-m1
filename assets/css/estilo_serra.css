@@ -1,0 +1,175 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+#secao1 {
+    background: url(../imagens/bg1.png) 0px 0px / 1920px 1080px no-repeat;
+    z-index: 4;
+}
+
+#secao2 {
+    background: url(../imagens/bg2.png) 0px 0px / 1920px 1080px no-repeat;
+    z-index: 3;
+}
+
+#secao3 {
+    background: url(../imagens/bg3.png) 0px 0px / 1920px 1080px no-repeat;
+    z-index: 2;
+}
+
+.secao {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+
+#app-parque {
+    width: 1920px;
+    height: 1080px;
+    background-color: #3f3f3f;
+    transform-origin: 0% 0%;
+    position: relative;
+}
+#wrap {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 5;
+    width: 320px;
+  }
+  #indicacao {
+    position: absolute;
+    top: 90px;
+    width: auto;
+    left: 1204px;
+  }
+  .pin {
+    position: absolute;
+    border: 0px;
+    background: none;
+    z-index: 1;
+
+}
+
+.pin-texto {
+    background: rgb(250, 255, 215);
+    background: linear-gradient(180deg, rgba(250, 255, 215, 1) 0%, rgb(165, 149, 185) 100%);
+    width: 100%;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #3f3f3f;
+    color: #684661;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px none;
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    transform: scale(1);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.pin-texto:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.pin-texto:active {
+    filter: sepia(70%);
+}
+
+[data-id="pin1"] {
+  top: 306px;
+  left: 1167px;
+}
+  [data-id="pin2"] {
+    top: 404px;
+    left: 787px;
+}
+
+.pin-texto[data-id="pin1"] {
+  max-width: calc(231px - 36px);
+  top: 250px;
+  left: 1133px;
+}
+
+.pin-texto[data-id="pin2"] {
+    top: 360px;
+    left: 775px;
+     max-width: 320px;
+ 
+}
+.pin-texto[data-id="pin3"] {
+  top: 420px;
+  left: 395px;
+  max-width: calc(290px - 36px);
+}
+.pin-texto[data-id="pin4"] {
+  top: 580px;
+  left: 685px;
+  max-width: calc(515px - 36px);
+}
+.pin-texto[data-id="pin5"] {
+  top: 400px;
+  left: 1195px;
+  max-width: calc(360px - 36px);
+}
+  #app-parque.blur {
+    filter: blur(5px);
+  }
+  .modal-backdrop {
+    background-color: #fff;
+  }
+  .modal-header h5 {
+    color: rgb(155, 122, 196);
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  p{
+    color: #666666;
+  }
+  .btn-secondary {
+    color: #9b7ac4;
+    background-color: #fff;
+    border-color: #9b7ac4;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .bt_tour img {
+    max-width: 50px;
+    margin-bottom: 5px;
+  }
+  .bt_tour {
+    border: 0px none;
+    background: none;
+    text-decoration: none;
+    color: #E96D70;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    
+  }
+
+  .bt_tour:hover {
+    color: #E96D70;
+    opacity: 0.75;
+    
+  }
+  .correcaoImagem {
+    background-position: 0px -125px;
+  }
