@@ -146,6 +146,10 @@
     margin-bottom: -200px;
 }
 
+#bloco-pg4-1 .img-rellax-2 {
+    top: 650px;
+}
+
 #bloco-pg4-2 {
     margin-top: -200px;
     padding-top: 150px;
@@ -154,14 +158,29 @@
     padding-top: 100px;
     margin-top: -100px;
 }
+#bloco-pg4-3 .img-rellax-5 {
+    top: 1000px;
+}
+#bloco-pg4-3 .img-rellax-6 {
+    top: 2300px;
+}
 #bloco-pg5-2 {
     margin-top: -250px;
     padding-top: 250px;
     margin-bottom: -200px;
 }
+#bloco-pg5-2 .img-rellax-1 {
+    top: 650px;
+}
+#bloco-pg5-2 .img-rellax-2 {
+    top: 1550px;
+}
 #bloco-pg5-3 {
     margin-top: -200px;
     padding-top: 130px;
+}
+#bloco-pg5-3 .img-rellax-3 {
+    top: 1600px;
 }
 
 .rellax {
@@ -224,6 +243,10 @@
     border-radius: 15px;
     display: block;
     margin: 20px auto;
+}
+
+.bloco.estilo1 h3, .bloco.estilo3 h3 {
+    color: white;
 }
 
 h3 { font-size: 32px; }
