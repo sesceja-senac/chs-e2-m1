@@ -82,10 +82,10 @@
     background-image: url('../../img/pagina1/pg1-parallax-3.png');    
 }
 #bloco-parallax-4 {
-    background-image: url('../../img/pagina2/pg2-parallax1.png');    
+    background-image: url('../../img/pagina2/pg2-parallax-1.png');    
 }
 #bloco-parallax-5 {
-    background-image: url('../../img/pagina2/pg2-Parallax2.png');    
+    background-image: url('../../img/pagina2/pg2-parallax-2.png');    
 }
 #bloco-parallax-6 {
     background-image: url('../../img/pagina3/pg3-parallax1.png');    
@@ -128,6 +128,20 @@
 }
 #bloco-4 {
     padding-bottom: 0;
+}
+
+#bloco-pg2-1 {
+    margin-bottom: -200px;
+}
+#bloco-pg2-2 {
+    margin-top: -200px;
+    padding-top: 150px;
+    margin-bottom: -200px;
+    padding-bottom: 150px;
+}
+#bloco-pg2-3 {
+    margin-top: -200px;
+    padding-top: 150px;
 }
 
 #bloco-pg3-1 {
@@ -441,16 +455,36 @@ figcaption {
 }
 .card {
     display: inline-block;
-    height: 102px;
+    height: 125px;
     width: 125px;
     margin: 5px;
+    box-shadow: 2px 2px 3px #333;
+    border-radius: 10px;
+    background-position: center;
+    background-size: 152px;
+    background-repeat: no-repeat;
 }
-
+#card-1 {
+    background-image: url('../../img/pagina2/pg2-praticar-1.png');
+}
+#card-2 {
+    background-image: url('../../img/pagina2/pg2-praticar-2.png');
+}
+#card-3 {
+    background-image: url('../../img/pagina2/pg2-praticar-3.png');
+}
+#card-4 {
+    background-image: url('../../img/pagina2/pg2-praticar-4.png');
+}
+#card-5 {
+    background-image: url('../../img/pagina2/pg2-praticar-5.png');
+}
+#card-6 {
+    background-image: url('../../img/pagina2/pg2-praticar-6.png');
+    
+}
 .card p {
     color: black !important;
-}
-#cardPile img{
-    width: 125px;
 }
 .game-descricao{
     background-color: #fff;
@@ -495,6 +529,7 @@ figcaption {
 #slots .row, #cardPile {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 25px 0;
 }
 
