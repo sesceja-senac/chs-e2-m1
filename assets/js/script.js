@@ -1,3 +1,7 @@
+$(document).ready(function() {   
+    AOS.init();
+})
+
 if (window.location.search == '?page=3' || window.location.search == '?page=4' || window.location.search == '?page=5'){
     $('.bloco').css('background-position', 'right')
     $('footer').css('background-position', 'right')
