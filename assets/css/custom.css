@@ -115,6 +115,22 @@
     background-image: url('../../img/pagina5/pg5-parallax2.png');
     margin-top: -160px;
 }
+#bloco-parallax-12 {
+    background-image: url('../../img/pagina6/Pg6-parallax1.png');
+    margin-top: -160px;
+}
+#bloco-parallax-13 {
+    background-image: url('../../img/pagina6/Pg6-parallax2.png');
+    margin-top: -160px;
+}
+#bloco-parallax-14 {
+    background-image: url('../../img/pagina7/Pg7-parallax1.png');
+    margin-top: -160px;
+}
+#bloco-parallax-15 {
+    background-image: url('../../img/pagina7/Pg7-parallax2.png');
+    margin-top: -160px;
+}
 
 #bloco-1 {
     margin-bottom: -200px;
@@ -245,7 +261,25 @@
     bottom: -400px;
     right: 0;
 }
-
+.img-rellax-9 {
+    bottom: -600px;
+    left: 0;
+}
+.img-rellax-10 {
+    bottom: -100px;
+    right: 0;
+}
+.img-rellax-11 {
+    bottom: -600px;
+    right: 0;
+}
+.img-rellax-12 {
+    bottom: -0px;
+}
+.img-rellax-13 {
+    bottom: -290px;
+    right: 0px;
+}
 #bloco-pg3-2 .img-rellax-7 {
     top: 1500px;
     bottom: unset;
