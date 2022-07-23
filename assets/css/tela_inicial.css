@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../img/tela-inicial/pedra.png');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    background-repeat: no-repeat;
+}
+
+.background-1 {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('../../img/tela-inicial/dia.jpg');
+    background-position:0 0;
+    background-size: 2952px 1304px;
+    animation-name: bg-anim;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: center;
+    animation-timing-function: linear;
+    
+    
+}
+.background-2 {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('../../img/tela-inicial/noite.jpg');
+    background-position:0 0;
+    background-size: 2800px 1400px;
+    animation-name: bg-anim;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: center;
+    animation-timing-function: linear;   
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    transition-duration: .6s;
+}
+
+.darker .titulo {
+    background-color: rgba(55,55,55, .3);
+}
+
+.darker .menu {
+    background-color: rgba(55,55,55, .3);
+}
+
+.darker .menu a {
+    background-color: rgba(55,55,55, .3);
+}
+
+.titulo {
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: rgba(255,255,255, .3);
+    border-radius: 5px;
+    transition-duration: .6s;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 35px 20px;
+    border-radius: 15px;
+    margin-top: 25px;
+    transition-duration: .6s;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid white;
+    margin: 5px;
+    width: 80%;
+    text-align: center;
+    font-size: 22px;
+    transition-duration: .6s;
+    box-shadow: 3px 3px 5px #333;
+}
+
+.menu a:hover {
+    transform: scale(1.05);
+}
+
+@keyframes bg-anim {
+    0% {background-position: 0 0;} 
+    50% {background-position: 50% 50%;}
+    100% {background-position: 100% 100%;}
+}
