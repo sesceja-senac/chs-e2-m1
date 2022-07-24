@@ -660,6 +660,7 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 25px 0;
 }
 
@@ -1050,6 +1051,7 @@ figcaption.hidden {
     background-image: url('../../img/pagina3/pg3-pergaminho.png');
     background-size: contain;
     height: 950px;
+    background-repeat: no-repeat;
 }
 
 .info-1 p.branco {
@@ -1338,6 +1340,9 @@ footer.container-fluid {
     #btn-7 {
         margin: 5px;
     }
+    .titulo-conteudo {
+        position: static;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -1377,5 +1382,29 @@ footer.container-fluid {
         margin-top: unset;
     }
 
+    .info-1 {
+        height: auto;
+        background-image: unset;
+        background-color: #e9d2ac;
+        border-radius: 15px;
+        box-shadow: 3px 3px 5px #333;
+    }
+    .pergaminho {
+        margin: 15px;
+        padding: 10px;
+    }
 
+    #figura-9 {
+        padding: 0;
+        margin: 15px auto;
+    }
+    #figura-9 img {
+        max-width: 100%;
+    }
+    video {
+        width: 100%;
+    }
+    .letra-cv {
+        width: 100%;
+    }
 }
