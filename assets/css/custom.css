@@ -365,8 +365,18 @@ body {
 }
 
 .bloco.estilo1 h3,
-.bloco.estilo3 h3 {
+.bloco.estilo3 h3,
+.bloco.estilo3 h4,
+.bloco.estilo1 h4,
+.bloco.estilo3 a,
+.bloco.estilo1 a {
     color: white;
+}
+
+.estilo1 .accordion-item .accordion-body figcaption,
+.estilo1 .accordion-item .accordion-body a,
+.estilo1 .accordion-item .accordion-body p {
+    color: #333;
 }
 
 h3 {
