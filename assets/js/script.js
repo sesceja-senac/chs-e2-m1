@@ -9,6 +9,9 @@ if (window.location.search == '?page=3' || window.location.search == '?page=4' |
 if (window.location.search == '?page=4'){
     $('footer').css('background-color', 'white')
 }
+if (window.location.search == '?page=7'){
+    $('footer').css('background-color', '#ff9200')
+}
 
 $('.painel-container button').hover(function (){
     $(this).css('transform', 'scale(2)')

@@ -275,7 +275,25 @@ body {
 #bloco-pg5-3 .img-rellax-3 {
     top: 1600px;
 }
-
+#bloco-pg6-3 {
+    margin-top: -200px;
+    padding-top: 150px;
+}
+#bloco-pg6-7 {
+    margin-top: -200px;
+    padding-top: 150px;
+}
+#bloco-pg7-3 {
+    margin-top: -200px;
+    padding-top: 150px;
+}
+#bloco-pg7-4 {
+    margin-top: -200px;
+    padding-top: 200px;
+}
+#bloco-pg7-4 .img-rellax-9 {
+    bottom: 0px;
+} 
 .rellax {
     width: 17%;
     position: absolute;
