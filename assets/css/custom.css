@@ -96,7 +96,7 @@ body {
 
 .bloco-parallax {
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
     position: relative;
     z-index: 10;
     background-size: cover;
@@ -104,66 +104,81 @@ body {
 }
 
 #bloco-parallax-1 {
+    height: 410px;
     background-image: url('../../img/pagina1/pg1-parallax-1.png');
 }
 
 #bloco-parallax-2 {
+    height: 258px;
     background-image: url('../../img/pagina1/pg1-parallax-2.png');
 }
 
 #bloco-parallax-3 {
+    height: 305px;
     background-image: url('../../img/pagina1/pg1-parallax-3.png');
 }
 
 #bloco-parallax-4 {
+    height: 355px;
     background-image: url('../../img/pagina2/pg2-parallax-1.png');
 }
 
 #bloco-parallax-5 {
+    height: 365px;
     background-image: url('../../img/pagina2/pg2-parallax-2.png');
 }
 
 #bloco-parallax-6 {
+    height: 410px;
     background-image: url('../../img/pagina3/pg3-parallax1.png');
 }
 
 #bloco-parallax-7 {
+    height: 345px;
     background-image: url('../../img/pagina3/pg3-parallax2.png');
     margin-top: -30px;
 }
 
 #bloco-parallax-8 {
+    height: 545px;
     background-image: url('../../img/pagina4/pg4-Parallax1.png');
     margin-top: -30px;
 }
 
 #bloco-parallax-9 {
+    height: 545px;
     background-image: url('../../img/pagina4/pg4-Parallax2.png');
     margin-top: -30px;
 }
 
 #bloco-parallax-10 {
+    height: 392px;
     background-image: url('../../img/pagina5/pg5-parallax1.png');
     margin-top: -10px;
 }
 
 #bloco-parallax-11 {
+    height: 543px;
     background-image: url('../../img/pagina5/pg5-parallax2.png');
     margin-top: -160px;
 }
 #bloco-parallax-12 {
+    height: 365px;
     background-image: url('../../img/pagina6/Pg6-parallax1.png');
     margin-top: -160px;
 }
 #bloco-parallax-13 {
+    height: 258px;
     background-image: url('../../img/pagina6/Pg6-parallax2.png');
     margin-top: -160px;
 }
 #bloco-parallax-14 {
+    height: 392px;
     background-image: url('../../img/pagina7/Pg7-parallax1.png');
     margin-top: -160px;
 }
 #bloco-parallax-15 {
+    height: 313px;
     background-image: url('../../img/pagina7/Pg7-parallax2.png');
     margin-top: -160px;
 }
