@@ -1343,6 +1343,10 @@ footer.container-fluid {
     background-size: 15% auto;
 }
 
+.painel-gaitinha .accordion-button {
+    font-family: unset;
+}
+
 @media (max-width: 1280px) {
 
     .bloco,
