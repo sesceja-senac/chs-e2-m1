@@ -152,13 +152,13 @@ body {
 }
 
 #bloco-parallax-10 {
-    height: 392px;
+    height: 381px;
     background-image: url('../../img/pagina5/pg5-parallax1.png');
     margin-top: -10px;
 }
 
 #bloco-parallax-11 {
-    height: 543px;
+    height: 401px;
     background-image: url('../../img/pagina5/pg5-parallax2.png');
     margin-top: -160px;
 }
@@ -221,7 +221,6 @@ body {
 }
 
 #bloco-pg3-1 {
-    margin-top: -200px;
     padding-top: 150px;
 }
 
@@ -303,8 +302,7 @@ body {
     padding-top: 150px;
 }
 #bloco-pg7-4 {
-    margin-top: -200px;
-    padding-top: 200px;
+    margin-top: -100px;
 }
 #bloco-pg7-4 .img-rellax-9 {
     bottom: 0px;
