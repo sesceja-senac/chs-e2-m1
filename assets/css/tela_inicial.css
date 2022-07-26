@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -57,9 +56,157 @@
     transform-origin: center;
     animation-timing-function: linear;   
 }
+#titulo-1, #titulo-2 {
+    width: 45vw;
+    max-width: 650px;
+    min-width: 380px;
+    display: block;
+    margin: 20px;
+    margin-left: 120px;
+}
+#titulo-1 {
+    margin-top: 125px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#menu {
+    padding-top: 15px;
+    width: 60vw;
+    max-width: 800px;
+    margin-left: 40px;
+}
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition-duration: .3s;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#menu a:hover {
+    color: #8e2400;
+    padding-left: 100px;
+    transition-duration: .3s;
+    transform: scale(1.1);
+    
+    /* text-shadow: 1px 1px 3px black; */
+}
+#btn-1 {
+    width: 415px;
+    height: 150px;
+    background-image: url('../../img/tela-inicial/Tela-inicialbt1.png');
+    display: block;
+    padding-left: 130px;
+    padding-top: 55px;
+}
+#btn-2 {
+    width: 329px;
+    height: 155px;
+    background-image: url('../../img/tela-inicial/Tela-inicialbt2.png');
+    display: block;
+    padding-top: 55px;
+    padding-left: 120px;
+}
+#btn-3 {
+    width: 322px;
+    height: 147px;
+    background-image: url('../../img/tela-inicial/Tela-inicialbt3.png');
+    display: block;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+#btn-4 {
+    width: 297px;
+    height: 121px;
+    background-image: url('../../img/tela-inicial/Tela-inicialbt4.png');
+    display: block;
+    padding-top: 30px;
+    padding-left: 110px;
+}
+#btn-1:hover {
+    background-image: url('../../img/tela-inicial/Tela-inicialbt1-hover.png');
+    padding-left: 160px;
+    padding-top: 60px;
+    font-size: 16px;
+}
+#btn-2:hover {
+    background-image: url('../../img/tela-inicial/Tela-inicialbt2-hover.png');
+}
+#btn-3:hover {
+    background-image: url('../../img/tela-inicial/Tela-inicialbt3-hover.png');
+    
+    padding-top: 48px;
+    font-size: 16px;
+}
+#btn-4:hover {
+    background-image: url('../../img/tela-inicial/Tela-inicialbt4-hover.png');
+}
+#btn-5 {
+    width: 312px;
+    height: 196px;
+    background-image: url('../../img/tela-inicial/Tela-inicialbt5.png');
+    display: block;
+    position: absolute;
+    right: 25px;
+    padding-top: 100px;
+    padding-left: 90px;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    transition-duration: .3s;
+}
+#btn-5:hover {
+    background-image: url('../../img/tela-inicial/Tela-inicialbt5-hover.png');
+    color: #8e2400;
+    padding-left: 90px;
+    transition-duration: .3s;
+    transform: scale(1.05);
+    
+}
 
 @keyframes bg-anim {
     0% {background-position: 0 0;} 
     50% {background-position: 50% 50%;}
     100% {background-position: 100% 100%;}
+}
+
+@media (max-width: 1080px) {
+    #btn-1 {
+        padding-top: 45px;
+    }
+    #titulo-1 {
+        margin: 15px;
+    }
+    #titulo-2 {
+        margin: 15px;
+    }
+    #menu {
+        margin-left: 0px;
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #titulo-1, #titulo-2 {
+        display: block;
+        margin: 15px auto;
+    }
+    #menu {
+        padding-top: 0;
+    }
+    #btn-5 {
+        position: static;
+        margin: auto;
+        display: block;
+        transform: scale(.9);
+        margin-top: -25px;
+    }
 }
