@@ -293,9 +293,12 @@ body {
     margin-top: -200px;
     padding-top: 150px;
 }
+#bloco-pg6-6 {
+    padding-bottom: 200px;
+}
 #bloco-pg6-7 {
-    margin-top: -200px;
-    padding-top: 150px;
+    
+    padding-top: 80px;
 }
 #bloco-pg7-3 {
     margin-top: -200px;
@@ -404,9 +407,9 @@ body {
     color: white;
 }
 
-.estilo1 .accordion-item .accordion-body figcaption,
-.estilo1 .accordion-item .accordion-body a,
-.estilo1 .accordion-item .accordion-body p {
+.estilo3 .accordion-item .accordion-body figcaption,
+.estilo3 .accordion-item .accordion-body a,
+.estilo3 .accordion-item .accordion-body p {
     color: #333;
 }
 

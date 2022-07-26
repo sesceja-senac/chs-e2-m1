@@ -2,14 +2,17 @@ $(document).ready(function() {
     AOS.init();
 })
 
-if (window.location.search == '?page=3' || window.location.search == '?page=4' || window.location.search == '?page=5'){
+if (window.location.search == '?page=2' || window.location.search == '?page=4' || window.location.search == '?page=5'){
     $('.bloco').css('background-position', 'right')
     $('footer').css('background-position', 'right')
 }
-if (window.location.search == '?page=4'){
+if (window.location.search == '?page=2'){
     $('footer').css('background-color', 'white')
 }
-if (window.location.search == '?page=7'){
+if (window.location.search == '?page=3'){
+    $('footer').css('background-color', '#004f53')
+}
+if (window.location.search == '?page=4'){
     $('footer').css('background-color', '#ff9200')
 }
 
