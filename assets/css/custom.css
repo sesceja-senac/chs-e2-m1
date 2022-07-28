@@ -795,14 +795,13 @@ figcaption.hidden {
     width: 117px;
     height: 45px;
     display: block;
-    margin: -10px auto 20px auto;
+    margin: -20px auto 40px auto;
 }
 .tela-inicial:hover{
     background-image: url('../img/bt-telainicial.png');
     background-position-x: 118px;
     width: 118px;
     height: 45px;
-    margin: -10px auto 20px auto;
 }
 
 /* Jogo memoria */
@@ -1437,6 +1436,7 @@ footer.container-fluid {
     background-image: url('../../img/pagina1/estampa.png');
     background-repeat: repeat-y;
     background-size: 15% auto;
+    padding-bottom: 20px;
 }
 
 .painel-gaitinha .accordion-button {
