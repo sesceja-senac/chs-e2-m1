@@ -1581,4 +1581,7 @@ footer.container-fluid {
     .letra-cv {
         width: 100%;
     }
+    .bg-card-f6{
+        display: none;
+    }
 }
