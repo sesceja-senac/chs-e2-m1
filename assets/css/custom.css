@@ -1403,6 +1403,34 @@ figcaption.hidden {
 }
 
 /* Fim Cruzada */
+.dino-monstro{
+    position: relative;
+}
+.dino-monstro #dino-mini1, .dino-monstro #dino-mini2{
+    width: 80px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.dino-monstro #dino-mini1:hover{
+    width: 250px;
+    top:40%;
+    left: 30%;
+
+}
+.dino-monstro #dino-mini2:hover{
+    width: 250px;
+    top:35%;
+    left: 62%;
+}
+.dino-monstro #dino-mini1{
+    top: 56%;
+    left: 39.5%;
+}
+.dino-monstro #dino-mini2{
+    top: 52%;
+    left: 71%;
+}
 
 footer.container-fluid {
     background-color: #00838d;
