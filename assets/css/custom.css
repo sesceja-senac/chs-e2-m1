@@ -753,7 +753,6 @@ figcaption.hidden {
 
 .tooltip-link {
     color: #333;
-    text-decoration-style: dashed;
 }
 
 .tooltip-link:hover {
@@ -790,6 +789,20 @@ figcaption.hidden {
 
 .pagination {
     justify-content: center;
+}
+.tela-inicial{
+    background-image: url('../img/bt-telainicial.png');
+    width: 118px;
+    height: 45px;
+    display: block;
+    margin: -10px auto 20px auto;
+}
+.tela-inicial:hover{
+    background-image: url('../img/bt-telainicial.png');
+    background-position-x: 118px;
+    width: 118px;
+    height: 45px;
+    margin: -10px auto 20px auto;
 }
 
 /* Jogo memoria */
