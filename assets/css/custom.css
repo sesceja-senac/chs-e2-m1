@@ -304,7 +304,7 @@ body {
     padding-top: 150px;
 }
 #bloco-pg7-4 {
-    margin-top: -100px;
+    margin-top: -150px;
 }
 #bloco-pg7-4 .img-rellax-9 {
     bottom: 0px;
@@ -1441,6 +1441,16 @@ footer.container-fluid {
 
 .painel-gaitinha .accordion-button {
     font-family: unset;
+}
+.bloco .container .bg-fechamento  p, .bloco .container .bg-fechamento  h2, .bloco .container .bg-fechamento  h3, .bloco.estilo3 .bg-fechamento p, .bloco.estilo3 .bg-fechamento h4, .bloco.estilo3 .bg-fechamento figcaption,  .bloco.estilo3 .bg-fechamento a{
+    color: #333;
+}
+.bg-fechamento {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px #333;
+    margin: 30px auto;
 }
 
 @media (max-width: 1280px) {
