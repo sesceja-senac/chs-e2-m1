@@ -1414,22 +1414,22 @@ figcaption.hidden {
 }
 .dino-monstro #dino-mini1:hover{
     width: 250px;
-    top:40%;
-    left: 30%;
+    top: 38%;
+    left: 35%;
 
 }
 .dino-monstro #dino-mini2:hover{
     width: 250px;
-    top:35%;
-    left: 62%;
+    top: 20%;
+    left: 66%;
 }
 .dino-monstro #dino-mini1{
-    top: 56%;
-    left: 39.5%;
+    top: 61%;
+    left: 43.5%;
 }
 .dino-monstro #dino-mini2{
     top: 52%;
-    left: 71%;
+    left: 76%;
 }
 
 footer.container-fluid {
