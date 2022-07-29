@@ -17,5 +17,10 @@ function handleCardDrop(event, ui){
         $(this).css("opacity","0");
         ui.draggable.position( { of: $(this), my: 'left top', at: 'left top' } );
         ui.draggable.draggable( 'option', 'revert', false );
+        if( $('.game-body') && ($(".correct").length == 6)){
+            $('#bgmodal-passou').modal('show')
+        }
+    }else{
+        $('#bgmodal-errou').modal('show')
     }
 }

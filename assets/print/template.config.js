@@ -146,7 +146,7 @@ function pagination ()
   {
     for(var i = 1; i <= countPages(); i++)
     {
-    var li = '<li> <a href="index.html?page=' + i + '" class="btn-sesc mx-1 d-inline-block">' + i + '</a> </li>';
+    var li = '<li> <a href="conteudo.html?page=' + i + '" class="btn-sesc mx-1 d-inline-block">' + i + '</a> </li>';
       $("ul.pagination").append(li);
     }
     $("ul.pagination").css("display","");
@@ -206,9 +206,9 @@ function checkURI( i )
 
 function getIndexFile(){
   var addr_file = location.href;
-  if(addr_file.indexOf("index.html") == -1 && addr_file.indexOf("index.htm") == -1) {
+  if(addr_file.indexOf("conteudo.html") == -1 && addr_file.indexOf("conteudo.htm") == -1) {
     if(addr_file.slide(-1) != "/" ) addr_file += "/";
-    addr_file += "index.html";
+    addr_file += "conteudo.html";
   }
   return addr_file;
 }

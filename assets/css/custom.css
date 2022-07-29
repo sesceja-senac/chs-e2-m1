@@ -184,14 +184,13 @@ body {
 }
 
 #bloco-1 {
-    margin-bottom: -200px;
-    padding-bottom: 130px;
+    
 }
 
 #bloco-2 {
-    padding-top: 150px;
+    /* padding-top: 150px;
     margin-top: -200px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; */
     /* margin-bottom: -200px; */
 }
 
@@ -305,7 +304,7 @@ body {
     padding-top: 150px;
 }
 #bloco-pg7-4 {
-    margin-top: -100px;
+    margin-top: -150px;
 }
 #bloco-pg7-4 .img-rellax-9 {
     bottom: 0px;
@@ -754,7 +753,6 @@ figcaption.hidden {
 
 .tooltip-link {
     color: #333;
-    text-decoration-style: dashed;
 }
 
 .tooltip-link:hover {
@@ -791,6 +789,19 @@ figcaption.hidden {
 
 .pagination {
     justify-content: center;
+}
+.tela-inicial{
+    background-image: url('../img/bt-telainicial.png');
+    width: 117px;
+    height: 45px;
+    display: block;
+    margin: -20px auto 40px auto;
+}
+.tela-inicial:hover{
+    background-image: url('../img/bt-telainicial.png');
+    background-position-x: 118px;
+    width: 118px;
+    height: 45px;
 }
 
 /* Jogo memoria */
@@ -1391,16 +1402,55 @@ figcaption.hidden {
 }
 
 /* Fim Cruzada */
+.dino-monstro{
+    position: relative;
+}
+.dino-monstro #dino-mini1, .dino-monstro #dino-mini2{
+    width: 80px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.dino-monstro #dino-mini1:hover{
+    width: 250px;
+    top: 38%;
+    left: 35%;
+
+}
+.dino-monstro #dino-mini2:hover{
+    width: 250px;
+    top: 20%;
+    left: 66%;
+}
+.dino-monstro #dino-mini1{
+    top: 61%;
+    left: 43.5%;
+}
+.dino-monstro #dino-mini2{
+    top: 52%;
+    left: 76%;
+}
 
 footer.container-fluid {
     background-color: #00838d;
     background-image: url('../../img/pagina1/estampa.png');
     background-repeat: repeat-y;
     background-size: 15% auto;
+    padding-bottom: 20px;
 }
 
 .painel-gaitinha .accordion-button {
     font-family: unset;
+}
+.bloco .container .bg-fechamento  p, .bloco .container .bg-fechamento  h2, .bloco .container .bg-fechamento  h3, .bloco.estilo3 .bg-fechamento p, .bloco.estilo3 .bg-fechamento h4, .bloco.estilo3 .bg-fechamento figcaption,  .bloco.estilo3 .bg-fechamento a{
+    color: #333;
+}
+.bg-fechamento {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px #333;
+    margin: 30px auto;
 }
 
 @media (max-width: 1280px) {
@@ -1540,5 +1590,8 @@ footer.container-fluid {
     }
     .letra-cv {
         width: 100%;
+    }
+    .bg-card-f6{
+        display: none;
     }
 }
