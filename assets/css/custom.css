@@ -1594,4 +1594,7 @@ footer.container-fluid {
     .bg-card-f6{
         display: none;
     }
+    .objeto-mapa-pg5 {
+        height: 500px;
+        background-size: contain;
 }
