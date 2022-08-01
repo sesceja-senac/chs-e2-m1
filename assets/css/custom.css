@@ -1452,7 +1452,9 @@ footer.container-fluid {
     box-shadow: 5px 10px 10px #333;
     margin: 30px auto;
 }
-
+.pg-refs{
+    line-break: anywhere;
+}
 @media (max-width: 1280px) {
 
     .bloco,
@@ -1591,9 +1593,9 @@ footer.container-fluid {
     .letra-cv {
         width: 100%;
     }
-    .bg-card-f6{
+    /* .bg-card-f6{
         display: none;
-    }
+    } */
     .objeto-mapa-pg5 {
         height: 500px;
         background-size: contain;
